@@ -232,7 +232,9 @@ vagrant@ceph-admin:~/test-cluster$ ceph quorum_status --format json-pretty
 
 ## Install Ceph Object Gateway
 
-TODO
+```console
+$ ceph-deploy rgw create ceph-client
+```
 
 ## Play around!
 
@@ -255,7 +257,8 @@ TODO
 
 ### Store a blob object
 
-TODO
+[Admin guide](http://docs.ceph.com/docs/giant/radosgw/admin/)
+[Config Object Gateway](http://docs.ceph.com/docs/jewel/radosgw/config/)
 
 ## Cleanup
 
